@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Testing and Coverage
+coverage/
+*/coverage/
+.nyc_output/
+
+# SonarQube Scanner
+.scannerwork/
+*/.scannerwork/
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+
+# Uploads and temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
